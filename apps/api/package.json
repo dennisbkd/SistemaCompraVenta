@@ -1,0 +1,12 @@
+{
+  "name": "@scv/api",
+  "version": "0.0.0",
+  "description": "API (provisional: NestJS se instala en SCRUM-17)",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@scv/dominio": "workspace:*"
+  }
+}

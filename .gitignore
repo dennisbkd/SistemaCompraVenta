@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+
+# Resultado de compilar
+dist/
+build/
+*.tsbuildinfo
+
+# Variables de entorno (nunca se suben; .env.example sí)
+.env
+.env.*
+!.env.example
+
+# Tests
+coverage/
+
+# Registros
+*.log
+
+# Sistema y editor
+.DS_Store
+Thumbs.db
+.idea/

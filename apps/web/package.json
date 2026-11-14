@@ -1,0 +1,13 @@
+{
+  "name": "@scv/web",
+  "version": "0.0.0",
+  "description": "Web (provisional: React y Vite se instalan en SCRUM-19)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@scv/dominio": "workspace:*"
+  }
+}
